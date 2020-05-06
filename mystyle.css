@@ -17,22 +17,26 @@
 }
 #search-bar{
     margin: 5px auto 5px auto;
-    width: 400px;
-    border:1px solid grey;
+    width: 600px;
+    border:1px solid lightgrey;
     border-radius:30px;
 }
+#magnifying-glass{
+    display:inline-block;
+    height:25px;
+    position: relative;
+    transform: translateY(30%);
+}
 #search-input{
-    display:inline;
+    display:inline-block;
     padding: 10px;
-    border:0px;
+    border: 0px;
     font-size: 18px;
+    width:525px;
 }
 #google-search{
     margin-right:5px;
 }
-/* #im-feeling-lucky{
-
-} */
 #travel-link{
     font-size:13px;
 }
@@ -111,4 +115,15 @@ a.header-link:link{
 }
 a.footer-link:link{
     color: #4e4e4e;
+}
+button {
+    border:1px solid white;
+    border-radius: 5px;
+    padding:10px 15px 10px 15px;
+    color:grey;
+}
+button:hover{
+    border:1px solid grey;
+    background-color:#f6f5f4;
+    color:black;
 }
